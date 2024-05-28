@@ -80,7 +80,7 @@ You should then be able to resolve identifiers locally using simple `curl` reque
 	curl -X GET http://localhost:8080/1.0/identifiers/did:iid:3QUs61mk7a9CdCpckriQbA5emw8pubj6RMtHXP6gD66YbcungS6w2sa
 	curl -X GET http://localhost:8080/1.0/identifiers/did:evan:testcore:0x126E901F6F408f5E260d95c62E7c73D9B60fd734
 	curl -X GET http://localhost:8080/1.0/identifiers/did:bid:ef214PmkhKndUcArDQPgD5J4fFVwqJFPt
-	curl -X GET http://localhost:8080/1.0/identifiers/did:polygonid:polygon:mumbai:2qDj9EDytmvtQP1or3FxykXGEaqSA1ss479MYHDMJc
+	curl -X GET http://localhost:8080/1.0/identifiers/did:polygonid:polygon:amoy:2qWJLpYrEcKzRNpkWkFtyygffpxHrUHmedTCwKzoY8
 	curl -X GET http://localhost:8080/1.0/identifiers/did:pdc:8801:0xf47b66bc0d9b7c73f9ff27bf1f49a2b69dc167fc
 	curl -X GET http://localhost:8080/1.0/identifiers/did:tys:4B4AbVzzcJSnCZsdX4VaKyQgHRnC
 	curl -X GET http://localhost:8080/1.0/identifiers/did:plc:yk4dd2qkboz2yv6tpubpc6co
@@ -90,6 +90,7 @@ You should then be able to resolve identifiers locally using simple `curl` reque
 	curl -X GET http://localhost:8080/1.0/identifiers/did:content:3SqTXtoMpiPeNo5vEP2p7yNGQUeCGjqW1wnctv8yaCWXojD29GYcUEo
 	curl -X GET http://localhost:8080/1.0/identifiers/did:algo:426165491c77a6c95eeed8d0420b38b0afbe9057c4f33147eb90fafd32aaad22-591154170
 	curl -X GET http://localhost:8080/1.0/identifiers/did:itn:PA7xLNkMAqzzrDp4UBnrZm
+	curl -X GET http://localhost:8080/1.0/identifiers/did:iden3:polygon:amoy:xAm9g3jw9Dpc6xVvt1asM8ePSv78i3BXZhmFty3YE
 
 You can also use an "Accept" header to request the DID document in a specific representation, e.g.:
 
@@ -176,6 +177,7 @@ Are you developing a DID method and Universal Resolver driver? Click [Driver Dev
 | [did-content](https://github.com/KataruInc/did-content-spec)                                     | 0.1            | [0.1](https://github.com/KataruInc/did-content-spec)                                          | [kataru/content-did-driver](https://hub.docker.com/repository/docker/kataru/content-did-driver)                                                                                        | Content DID                                                                           |
 | [did-algo](https://github.com/algorandfoundation/did-algo)                                            | 0.6.0          | [2.0](https://github.com/algorandfoundation/did-algo/blob/main/README.md)                                          | [ghcr.io/aidtechnology/algoid-resolver](https://ghcr.io/aidtechnology/algoid-resolver)                                                                                        | Algorand Blockchain DID Method                                                                           |
 | [did-itn](https://github.com/itn-trust/uni-resolver-driver-did-itn)                                             | 1.0.0          | [1.0](https://github.com/itn-trust/itn-did-spec)                                         | [ghcr.io/itn-trust/driver-did-itn](https://ghcr.io/itn-trust/driver-did-itn)                                                                                        | Integrated Trust Network (ITN) DID Method                                                                           |
+| [did-iden3](https://github.com/0xPolygonID/driver-did-polygonid/blob/main/README.md)                        | 0.0.1          | [1.0.0](https://github.com/0xPolygonID/did-polygonid/blob/main/README.md)                                       | [polygonid/driver-did-polygonid](https://hub.docker.com/r/polygonid/driver-did-polygonid)                                                              | PolygonID DID                                                                        |
 
 
 ## More Information

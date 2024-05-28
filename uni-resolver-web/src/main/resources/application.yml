@@ -289,7 +289,7 @@ uniresolver:
       url: ${uniresolver_web_driver_url_did_polygonid:http://driver-did-polygonid:8080/}
       propertiesEndpoint: 'true'
       testIdentifiers:
-        - did:polygonid:polygon:mumbai:2qDj9EDytmvtQP1or3FxykXGEaqSA1ss479MYHDMJc
+        - did:polygonid:polygon:amoy:2qWJLpYrEcKzRNpkWkFtyygffpxHrUHmedTCwKzoY8
     - pattern: "^(did:pdc:.+)$"
       url: ${uniresolver_web_driver_url_did_pdc:http://driver-did-pdc:8080/}
       testIdentifiers:
@@ -328,3 +328,9 @@ uniresolver:
       testIdentifiers:
         - did:itn:PA7xLNkMAqzzrDp4UBnrZm
         - did:itn:EzfteTXcoHXh5W1PURHrS3
+    - pattern: "^(did:iden3:.+)$"
+      url: http://driver-did-iden3:8080/
+      propertiesEndpoint: 'true'
+      testIdentifiers:
+        - did:iden3:polygon:amoy:xAm9g3jw9Dpc6xVvt1asM8ePSv78i3BXZhmFty3YE
+
